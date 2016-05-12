@@ -20,9 +20,9 @@ for row in grade_book:
 	for grade in row:
 		total += grade 
 		counter += 1
-	average = total / counter
+	average = total / float(counter)
 	Newaverages.append(average)
-print(Newaverages)
+print(Newaverages[-1])
 	
 	
 		
